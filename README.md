@@ -117,7 +117,7 @@ Includes anti-detection logic, proxy management, and task scheduling for safe 24
 | **Live Session Preview**      | Watch real-time sessions for QA, client demo, or troubleshooting. |
 
 
-## 📊 Key Stats
+### 📊 Key Stats
 - Deployed across Android & iOS fleets
 - Supports thousands of automated actions per day
 - Manages hundreds of accounts simultaneously
