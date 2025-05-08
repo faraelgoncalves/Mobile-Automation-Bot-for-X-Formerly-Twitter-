@@ -2,6 +2,8 @@
 
 A powerful mobile automation system for **X.com**, built to run on real Android and iOS devices. This bot automates posting, following, liking, retweeting, and messaging with natural timing and gestures to bypass platform detection. Designed for realism and scalability, it supports multiple accounts per device, proxy rotation, and scheduled activity — all without ADB, desktop emulators, or cables.
 
+We’re the team behind Appilot. We’ve helped hundreds of businesses automate their social media with custom bots and automations, smart behavior simulations, and plug-and-play solutions. Our pricing is flexible; we offer competitive flat rates or performance-based options depending on your goals.
+
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/5f8daeab-d5e9-47c2-8d16-ef7cbaf6839e"
