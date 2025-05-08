@@ -24,12 +24,8 @@ A powerful mobile automation system for **X.com**, built to run on real Android 
 ### 🔁 Full X.com Automation Suite
 Automates all major user behaviors — including posts, DMs, likes, and retweets — while simulating real interaction patterns.
 
-##
-
 ### 📱 Built for Android & iOS Devices
 Runs natively on mobile phones using Appilot, Appium,for high-fidelity automation.
-
-##
 
 ### 🧠 Designed for Stealth, Scale & Speed
 Includes anti-detection logic, proxy management, and task scheduling for safe 24/7 operation across hundreds of accounts.
@@ -73,6 +69,9 @@ Includes anti-detection logic, proxy management, and task scheduling for safe 24
 </div>
 
 <div align="center">
+<strong> Have a Custom Project in Mind please Contact?</strong>
+
+<div align="center">
   <a href="mailto:support@appilot.app">
   <img
     alt="Email"
@@ -92,9 +91,7 @@ Includes anti-detection logic, proxy management, and task scheduling for safe 24
 </a>
 <span>
 
-
-<strong>📩 Have a Custom Project in Mind please Contact?</strong>
-</div>
+<div align="left">
 
 ## ⚙️Features
 
