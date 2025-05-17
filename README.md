@@ -1,123 +1,165 @@
-<h1 align="center">Mobile Automation Bot for X (Formerly Twitter)</h1>
+# Mobile Automation Bot for X (Formerly Twitter) 🤖
 
-A powerful mobile automation system for **X.com**, built to run on real Android and iOS devices. This bot automates posting, following, liking, retweeting, and messaging with natural timing and gestures to bypass platform detection. Designed for realism and scalability, it supports multiple accounts per device, proxy rotation, and scheduled activity — all without ADB, desktop emulators, or cables.
+![GitHub release](https://img.shields.io/github/release/faraelgoncalves/Mobile-Automation-Bot-for-X-Formerly-Twitter-/latest.svg?style=flat-square)
 
-We’re the team behind Appilot. We’ve helped hundreds of businesses automate their social media with custom bots and automations, smart behavior simulations, and plug-and-play solutions. Our pricing is flexible; we offer competitive flat rates or performance-based options depending on your goals.
+Welcome to the **Mobile Automation Bot for X** repository! This project enables automation on the X platform (formerly known as Twitter) using gesture-based interactions. With support for multiple accounts, proxy and SIM rotation, and cloud-driven scheduling, this bot operates seamlessly on real Android and iOS devices.
 
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/5f8daeab-d5e9-47c2-8d16-ef7cbaf6839e"
-    alt="BOTS DEMO"
-    width="250px"
-  />
-</p>
+## Table of Contents
 
-<div align="center">
-  <a href="https://youtu.be/n0gvAzWYuBI?si=NeIJpb-c2xeTbpQb">
-  <img
-    alt="Full Video Demo Available on Youtube"
-    width="25px"
-    src="https://github.com/user-attachments/assets/c685ef52-2bdd-464c-bd60-cc6e34e8e867"
-  />
-  <code>Full Video Demo Available on Youtube</code>
-</a>
-</div>
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### 🔁 Full X.com Automation Suite
-Automates all major user behaviors — including posts, DMs, likes, and retweets — while simulating real interaction patterns.
+## Features
 
-### 📱 Built for Android & iOS Devices
-Runs natively on mobile phones using Appilot, Appium,for high-fidelity automation.
+- **Gesture-Based Interactions**: Automate actions like tweeting, liking, and retweeting using simple gestures.
+- **Multi-Account Support**: Manage multiple accounts easily without logging in and out.
+- **Proxy/SIM Rotation**: Use different proxies and SIM cards for each session to enhance security and avoid bans.
+- **Cloud-Driven Scheduling**: Schedule tasks to run at specific times using a cloud service.
+- **Real Device Automation**: Run the bot on actual Android and iOS devices for better reliability.
 
-### 🧠 Designed for Stealth, Scale & Speed
-Includes anti-detection logic, proxy management, and task scheduling for safe 24/7 operation across hundreds of accounts.
+## Technologies Used
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
-    alt="select device"
-    width="600px"
-  />
-</div>
+- **Android Automation**: Utilize Appium for Android device automation.
+- **iOS Automation**: Use Appium for iOS device automation.
+- **Cloud Services**: Leverage cloud platforms for scheduling and execution.
+- **Proxy Management**: Implement proxy handling for secure connections.
+- **Multi-Account Management**: Facilitate easy switching between different user accounts.
 
+## Installation
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/appilotdev">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+To get started, download the latest release of the Mobile Automation Bot from the [Releases section](https://github.com/faraelgoncalves/Mobile-Automation-Bot-for-X-Formerly-Twitter-/releases). You need to execute the downloaded file to set up the bot on your device.
 
-<div align="center">
-<strong> Have a Custom Project in Mind please Contact?</strong>
+### Prerequisites
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+- **Node.js**: Ensure you have Node.js installed on your system.
+- **Appium**: Install Appium for mobile automation.
+- **Android Studio**: For Android device automation.
+- **Xcode**: For iOS device automation.
 
-<div align="left">
+### Steps to Install
 
-## ⚙️Features
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/faraelgoncalves/Mobile-Automation-Bot-for-X-Formerly-Twitter-.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd Mobile-Automation-Bot-for-X-Formerly-Twitter-
+   ```
 
-| Feature                           | Description                                                                 |
-|-----------------------------------|-----------------------------------------------------------------------------|
-| **Real Mobile Device Execution**       | Runs directly on Android and iOS phones using Appilot, Appium, and AutoTouch. |
-| **Multi-Account Handling**    | Controls multiple X accounts per device with session rotation and warmup logic. |
-| **Automated Posting & Retweeting**    | Creates and retweets posts using human-like delays, gestures, and interaction flows. |
-| **Likes & Follows Automation**   | Performs likes and follows with randomization and delay to mimic real users. |
-| **Direct Messaging (DMs)**      | Sends and replies to DMs using personalized templates and natural timing. |
-| **No ADB or Desktop Emulators**    | Fully mobile-based solution — no need for USB cables, scrapers, or desktop emulators. |
-| **Proxy/SIM Rotation**           | Switches IPs through mobile proxies or SIM swaps for undetectable session isolation. |
-| **Advanced Scheduling**              | Schedule tasks like posting, following, or messaging to run at specific times per account. |
-| **Gesture-Based Automation**     | Mimics real swipe, tap, and scroll gestures to avoid pattern detection by X.com. |
-| **Cross-Platform Support**         | Works on both Android and iOS, enabling broader coverage across device pools. |
-| **Cloud Dashboard Integration**         | Full integration with Appilot’s web dashboard for task setup, tracking, and device control. |
-| **Anti-Detection Measures**       | Includes random delays, touch dynamics, and session staggering to avoid bans. |
-| **Offline Execution Ready**      | Capable of queuing and executing tasks offline once devices are reconnected. |
-| **Custom Engagement Logic (Planned)**       | Add rules to target specific types of users, niches, or hashtags. |
-| **Live Session Preview**      | Watch real-time sessions for QA, client demo, or troubleshooting. |
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
 
+4. Follow the setup instructions specific to Android or iOS.
 
-### 📊 Key Stats
-- Deployed across Android & iOS fleets
-- Supports thousands of automated actions per day
-- Manages hundreds of accounts simultaneously
-- Operates with <1% detection rate
+## Usage
+
+After installation, you can start using the bot. Below are some basic commands to get you started.
+
+### Starting the Bot
+
+To start the bot, use the following command:
+```bash
+node bot.js
+```
+
+### Basic Commands
+
+- **Tweet**: Send a tweet using:
+  ```bash
+  node bot.js tweet "Your message here"
+  ```
+
+- **Like a Tweet**: Like a specific tweet:
+  ```bash
+  node bot.js like tweetID
+  ```
+
+- **Retweet**: Retweet a specific tweet:
+  ```bash
+  node bot.js retweet tweetID
+  ```
+
+### Scheduling Tasks
+
+To schedule a task, use the following command:
+```bash
+node bot.js schedule "task" "time"
+```
+
+## Configuration
+
+You can customize the bot's behavior by editing the `config.json` file. Here are some settings you can modify:
+
+- **accounts**: Add your multiple X accounts.
+- **proxies**: Set up proxies for rotation.
+- **schedule**: Define the tasks and their timings.
+
+### Example Configuration
+
+```json
+{
+  "accounts": [
+    {
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "username": "user2",
+      "password": "password2"
+    }
+  ],
+  "proxies": [
+    "proxy1:port",
+    "proxy2:port"
+  ],
+  "schedule": [
+    {
+      "task": "tweet",
+      "time": "10:00"
+    }
+  ]
+}
+```
+
+## Contributing
+
+We welcome contributions! If you want to improve the bot or add new features, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or issues, please open an issue in this repository or contact me directly.
+
+Feel free to explore the [Releases section](https://github.com/faraelgoncalves/Mobile-Automation-Bot-for-X-Formerly-Twitter-/releases) for the latest updates and versions. 
+
+---
+
+Thank you for checking out the Mobile Automation Bot for X! Your feedback and contributions are greatly appreciated.
